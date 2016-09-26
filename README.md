@@ -3,7 +3,7 @@ Words per minute is a common metric for assessing reading speed. Calculate it wi
 
 ### Install
 
-`$ npm install words-per-minute`
+`$ npm install words-per-minute --save`
 
 ### Usage
 ```javascript
