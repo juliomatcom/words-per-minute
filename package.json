@@ -29,5 +29,5 @@
     "rules": {
         "semi": ["error", "never"]
     }
-}
+  }
 }
