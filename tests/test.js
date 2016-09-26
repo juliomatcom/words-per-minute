@@ -37,7 +37,7 @@ describe('words-per-minute', function () {
     })
 
     //https://medium.com/open-society-foundations/death-and-happy-talk-e198505a6f51#.5fvz9l7nl
-    it('smallest text', function () {
+    it('Death and Happy Talk text', function () {
       let text = 'This has been a week of exasperation over the relentless killing of innocents. The problem is that different people are exasperated by different killings.' +
                  'This week, U.S. Secretary of State John Kerry unleashed an uncharacteristically undiplomatic tirade at the United Nations over the bombings in Syria. “How can people go sit at a table with a regime that bombs hospitals and drops chlorine gas again and again and again and again and again and again, and acts with impunity?” asked the secretary of state. “Are you supposed to sit there and have happy talk in Geneva under those circumstances when you’ve signed up to a ceasefire and you don’t adhere to it? What kind of credibility do you have with any of your people?”' +
                  'Kerry was talking about the Syrian government, and its bombing campaign against its own civilian population. But his outrage might give white America and the world as a whole a glimpse into the exasperation of black America at the killings this week in Tulsa, Oklahoma, and in Charlotte, North Carolina, and earlier in Baton Rouge, Baltimore, Charleston, Chicago, Cleveland, Dallas, Ferguson, Staten Island, and more. How can black Americans remain patient and polite with a police establishment that shoots black men and black boys again and again and again and again? Is black America supposed to sit there and have happy talk with the officials responsible for so many deaths?' +
