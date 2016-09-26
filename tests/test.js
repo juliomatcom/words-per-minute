@@ -4,6 +4,13 @@ const getMinutesFromText = require('../src/lib/words-per-minute.js').getMinutesF
 describe('words-per-minute', function () {
   describe('#getMinutesFromText()', function () {
 
+      it('no text', function () {
+        let text = ''
+        let actual = getMinutesFromText(text)
+        let expected = 1
+        assert.equal(actual, expected, 'with no text should return 1 min')
+      })
+
     it('smallest text', function () {
       let text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
       let actual = getMinutesFromText(text)
