@@ -16,3 +16,5 @@ getMinutesFromText(text) // 1
 getWordsPerMinutes(3) // 639
 
 ```
+
+Tested with utf-8 and Spanish characters.
