@@ -1,6 +1,6 @@
 module.exports = {
   getMinutesFromText: getMinutesFromText,
-  getWordsForMinutes: getWordsForMinutes
+  getWordsPerMinutes: getWordsPerMinutes
 }
 //https://en.wikipedia.org/wiki/Words_per_minute
 const wpm = 213
@@ -18,6 +18,6 @@ function getWords (text) {
   return text.split(noWordChars).length
 }
 
-function getWordsForMinutes (mins) {
+function getWordsPerMinutes (mins) {
   return mins * wpm
 }
