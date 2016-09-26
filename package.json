@@ -1,0 +1,33 @@
+{
+  "name": "words-per-minute",
+  "version": "1.0.0",
+  "description": "Words per minute is a common metric for assessing reading speed. Calculate it with JS",
+  "main": "src/lib/words-per-minute.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliomatcom/words-per-minute.git"
+  },
+  "keywords": [
+    "words",
+    "per",
+    "minute"
+  ],
+  "author": "juliomatcom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliomatcom/words-per-minute/issues"
+  },
+  "homepage": "https://github.com/juliomatcom/words-per-minute#readme",
+  "eslintConfig": {
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "rules": {
+        "semi": ["error", "never"]
+    }
+}
+}
