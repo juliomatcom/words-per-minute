@@ -17,4 +17,4 @@ getWordsPerMinutes(3) // 639
 
 ```
 
-Tested with utf-8 and Spanish characters.
+Tested with English and Spanish characters.
