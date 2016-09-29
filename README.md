@@ -1,4 +1,4 @@
-# words-per-minute - reading time
+# words-per-minute A.K.A Reading Time
 Words per minute is a common metric for assessing reading speed. Calculate it with JS
 
 ### Install
