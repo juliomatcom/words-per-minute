@@ -1,6 +1,6 @@
 {
   "name": "words-per-minute",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Words per minute is a common metric for assessing reading speed. Calculate it with JS",
   "main": "src/lib/words-per-minute.js",
   "scripts": {
